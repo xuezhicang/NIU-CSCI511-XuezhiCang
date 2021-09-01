@@ -1,0 +1,17 @@
+CREATE TABLE z1747635 (
+   ID      int Primary key,
+   Name    TEXT,
+   type    VARCHAR(1),
+   min_lat_deg int,
+   min_lat_min int,
+   min_lat_sec decimal(4,2),   
+   max_lat_deg int,
+   max_lat_min int,
+   max_lat_sec decimal(4,2),
+   min_lon_deg int,
+   min_lon_min int,
+   min_lon_sec decimal(4,2),   
+   max_lon_deg int,
+   max_lon_min int,
+   max_lon_sec decimal(4,2)
+);
